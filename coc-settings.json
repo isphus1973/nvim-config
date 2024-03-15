@@ -1,0 +1,10 @@
+{
+  "python.formatting.provider": "black",
+  "python.formatting.blackPath": "~/mambaforge/envs/work/bin/black",
+  "coc.preferences.formatOnSaveTimeout": 1000,
+  "[python][json][typescript][javascript]": {
+    "coc.preferences.formatOnSave": true
+  },
+  "eslint.probe": ["typescript", "typescriptreact", "html", "vue", "markdown"],
+  "coc.preferences.currentFunctionSymbolAutoUpdate": true
+}
