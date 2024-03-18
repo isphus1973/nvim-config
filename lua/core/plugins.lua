@@ -26,6 +26,7 @@ return require('packer').startup(function(use)
   use 'folke/which-key.nvim'
   use { 'neoclide/coc.nvim', branch = 'release' }
   use 'github/copilot.vim'
+  use {'akinsho/toggleterm.nvim', tag='*'}
 
   if packer_bootstrap then
     require('packer').sync()
